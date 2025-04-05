@@ -1,4 +1,2 @@
 - 👋 Hi, I’m @zavrakassjs
-- 👀 I’m interested in JS
-- 🌱 I’m currently learning C++
-- 📫 How to reach me => Discord: xrszav / Telegram: ZChr1s
+- 📫 How to reach me => Discord: xrszav / Telegram: @xrszav
