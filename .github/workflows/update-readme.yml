@@ -1,0 +1,28 @@
+name: Update README with stats
+on:
+  schedule:  # e.g., run daily
+    - cron: '0 0 * * *'
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Update stats
+        uses: th3c0d3br34ker/github-readme-generator@v1.0.2
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          TIMEZONE: "Europe/Athens"
+          SHOW_DAILY_COMMIT: true
+          SHOW_WEEKLY_COMMIT: true
+          SHOW_LINES_OF_CODE: false
+      - name: Commit stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "chore: update README stats" || echo "No changes"
+          git push
