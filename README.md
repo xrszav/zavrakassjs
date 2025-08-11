@@ -25,4 +25,5 @@
 
 <!--START_SECTION:readme-info-->
 <!--END_SECTION:readme-info-->
+
 💻 This updates automatically every 24 hours to show my commit activity by time of day and day of week.
