@@ -22,3 +22,7 @@
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat&logo=github-pages&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+
+<!--START_SECTION:readme-info-->
+<!--END_SECTION:readme-info-->
+💻 This updates automatically every 24 hours to show my commit activity by time of day and day of week.
